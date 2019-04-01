@@ -1,0 +1,14 @@
+<!DOCTYPEhtml>
+<html>
+<head><title>course detail</title></head>
+<body>
+<font size="40" > 
+<h4> COURSE DETAIL</h4>
+<font size="30"> 
+<h1>course name:</h1></font><font size="30" color="light green"><i>B.Tech</i></font><br>
+<h1>branch name:</h1></font><font size="30" color="light green"><i>Computer science and technology</i></font><br>
+<h1>Tution fees:</h1></font><font size="30" color="light green"><i>154,000</i></font><br>
+<h1>registration fee:</h1></font><font size="30" color="light green"><i>5,000</i></font><br>
+<h1>examination fee:</h1></font><font size="30" color="light green"><i>5,000</i></font><br>
+</body>
+</html>

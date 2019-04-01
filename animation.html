@@ -1,0 +1,57 @@
+<html>
+<head><title>animation</title>
+<style>
+body
+{background-image:url("back.gif");}
+#img1,#img2,#img3,gift
+{
+display:none;
+}
+#img1,#img2,#img3,#gift
+{
+display:inline;
+position:relative;
+animation-name:anim;
+animation-duration:30s;
+animation-iteration-count:infinite;
+}
+
+@keyframes anim
+{
+0%{bottom:0px; }
+25%{ bottom:300px;}
+50%{bottom:600px;}
+75%{bottom:900px;}
+100%{bottom:1200px;}
+}
+audio
+{
+width:100%;
+margin:350px 0px 0px 0px;
+}
+</style>
+<script>
+window.onload=function()
+{ var x=document.getElementById("audio");
+x.currentTime=8;
+}
+function stop(){
+var x=document.getElementById("audio");
+x.pause();}
+</script>
+</head>
+<body>
+<center><img src="cake.gif" onclick="stop();"></center>
+
+<audio id="audio" autoplay >
+<source src="Taylor_Swift_-_Back_To_December.mp3" type="audio/mpeg" width="100%">
+</audio>
+<center><img src="happybirthday.png" width="800px" height="500px"></center>
+<img id="img1"src="b1.gif" width="320px" height="320px">
+<img id="img2"src="b2.gif">
+<img id="img3"src="b3.gif">
+<img id="img1"src="b1.gif" width="320px" height="320px">
+
+<center><img id="gift" src="giftb.gif"></center>
+</body>
+</html>

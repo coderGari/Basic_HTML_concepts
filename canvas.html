@@ -1,0 +1,66 @@
+<html>
+<head><title>canvas</title>
+<script type="text/javascript">
+function drawshape()
+{
+var c=document.getElementById("mycanvas");
+if(c.getContext)
+{
+var ctx=c.getContext("2d");
+var img=new Image();
+img.src='cherry.gif';
+img.onload=function()
+{
+ctx.drawImage(img,550,300);
+}
+for(i=0;i<100;i++)
+{
+ctx.beginPath();
+ctx.moveTo(10+i*11,0);
+ctx.lineTo(10+i*11,690-i*10);
+ctx.stroke();
+}
+for(i=0;i<100;i++)
+{
+ctx.beginPath();
+ctx.moveTo(1508-i*11,0);
+ctx.lineTo(1508-i*11,690-i*10);
+ctx.stroke();
+}
+ctx.beginPath();
+ctx.fillStyle="#FFD700";
+ctx.arc(750,150,60,0,180);
+ctx.stroke();
+ctx.fill();
+ctx.beginPath();
+ctx.fillStyle="Black";
+ctx.arc(720,130,5,0,180);
+ctx.stroke();
+ctx.fill();
+ctx.beginPath();
+ctx.arc(775,130,5,0,6.28);
+ctx.stroke();
+ctx.stroke();
+ctx.fill();
+ctx.fillStyle="White";
+ctx.beginPath();
+ctx.lineTo(720,155);
+ctx.arc(750,155,30,0,3.14);
+ctx.stroke();
+ctx.fill();
+ctx.beginPath();
+ctx.fillStyle="LightPink";
+ctx.font = "60px Comic Sans MS";
+ctx.fillText("SMILE",660,300);
+ctx.fill();
+
+
+}
+}
+</script>
+</head>
+<body onload="drawshape();">
+<canvas id="mycanvas" width="1518" height="700" style="border: 3px solid red">
+</canvas>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<html>
+<head><title>image</title></head>
+<body bgcolor="black">
+<center><img src="C:\Users\DELL\Pictures\mediaimages\world_map1.gif" height="700" width="1500" usemap="world_map">
+<map name="world_map">
+	<area shape="circle" coords ="1081,391,40" title="india" href="india.html" ></center>
+</body>
+</html>

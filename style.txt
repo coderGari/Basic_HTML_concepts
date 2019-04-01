@@ -1,0 +1,12 @@
+<html>
+<head><title>sytle</title>
+<style>
+body{
+color:pink;
+}
+p{
+background-color:cyan;
+}
+</style></head>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+<head><title>canvas</title>
+<script type="text/javascript">
+function drawshape()
+{
+var c=document.getElementById("mycanvas");
+if(c.getContext)
+{
+var ctx=c.getContext("2d");
+for(i=0;i<20;i++)
+{
+ctx.beginPath();
+ctx.moveTo(10+i*14,0);
+ctx.lineTo(10+i*14,190-i*15);
+ctx.stroke();
+}
+for(i=0;i<20;i++)
+{
+ctx.beginPath();
+ctx.moveTo(340-i*13,0);
+ctx.lineTo(340-i*13,190-i*15);
+ctx.stroke();
+}
+}
+}
+</script>
+</head>
+<body onload="drawshape();">
+<canvas id="mycanvas" width="450" height="200" style="border: 1px solid red">
+</canvas>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<html>
+<head><title>jOuerry</title>
+<style>
+img{position:absolute;}
+#hide,#show,#fadeIn,#fadeOut,#slideDown,#slideUp
+{ margin-left:380px;background-color: #4CAF60;font-size:20px;}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function()
+{
+$("#hide").click(function(){
+$("img").hide();
+});
+$("#show").click(function(){
+$("img").show();
+});
+$("#fadeIn").click(function(){
+$("img").fadeIn();
+});
+$("#fadeOut").click(function(){
+$("img").fadeOut();
+});
+$("#slideDown").click(function(){
+$("img").slideDown();
+});
+$("#slideUp").click(function(){
+$("img").slideUp();
+});
+});
+</script>
+</head>
+<body>
+<center><h1>PLAY WITH ME</h1></center>
+<center><img src="bluerose.jpg" ></center>
+<input type=button id="hide" value="hide"><br><br>
+<input type=button id="show"value="show"><br><br>
+<input type=button id="fadeOut" value="fadeOut"><br><br>
+<input type=button id="fadeIn"value="fadeIn"><br><br>
+<input type=button id="slideUp" value="slideUp"><br><br>
+<input type=button id="slideDown" value="slideDown">
+</body>
+</html>

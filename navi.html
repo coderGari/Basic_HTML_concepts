@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>Navi</title>
+<style>
+
+h1
+{
+text-align:center;
+background-color: cyan;
+text-shadow:3px 2px pink;
+}
+#secdiv
+{
+text-align: center;
+font-size:45px;
+text-shadow:4px 4px lightgrey;
+height:600;
+width:80%;
+position:absolute;
+left:220px;
+top:80px;
+text-overflow:clip;
+background-color:#D6EAF8
+
+}
+ul
+{
+list-style-type:none;
+background-color: #D7BDE2;
+width:200px;
+border:2px solid #EAECEE;
+margin:0;
+padding:0;
+text-align:center;
+}
+li a
+{
+display:block;
+text-decoration:none;
+color:black;
+padding:4px 0px;
+}
+li a:hover
+{
+color:black;
+background-color: #F2F3F4;
+}
+li a.active
+{
+background-color:pink;
+color:white;
+}
+</style>
+</head>
+<body>
+<h1>STUDY COLLECTION</h1>
+<div  id="firstdiv">
+<ul>
+<li><a href="#home" onclick="load_home(this);">home</a></li>
+<li><a href="#map" onclick="map(this);">Map</li></a>
+<li><a href="#stud info" onclick="load_stud(this);">Student Introduction</a></li>
+<li><a href="#course" onclick="load_course(this);" >course</a></li>
+<li><a href="#timetable" onclick="load_time(this);">Time Table</a></li>
+<li><a href="#canvas" onclick="load_canvas(this);" >canvas</a></li>
+<li><a href="#geo" onclick="load_geo(this);" >Geolocation</a></li>
+<li><a href="#image_gallery" onclick="load_gallery(this);">Gallery</a></li>
+<li><a href="#anim" onclick="load_animation(this);">Animation</a></li>
+<li><a href="#selector" onclick="load_selector(this);">Selectors</a></li>
+<li><a href="#register" onclick="load_java(this);">Registration</a></li>
+<li><a href="#jQuery" onclick="load_jQuery(this);">jQuery</a></li>
+<li><a href="#thankyou" onclick="load_thanku(this);">Thankyou</li></a>
+</ul>
+</div>
+
+<div id="secdiv">
+<b>...WELCOME... <br>
+USERS</b>
+</div>
+
+<script type="text/javascript">
+function load_home(a) 
+{
+a.style.color='white';
+a.style.background='pink';
+var x="<b>.....WELCOME.....<br> USERS</b>";
+document.getElementById("secdiv").innerHTML=x;}
+
+function map(a)
+{
+a.style.color='white';
+a.style.background='pink';
+document.getElementById("secdiv").innerHTML='<object type="text/html" data="india.html" width="100%" height="100%" ></object>';}
+
+function load_stud(a)
+{
+a.style.color='white';
+a.style.background='pink';
+document.getElementById("secdiv").innerHTML='<object type="text/html" data="stud.html"width="100%" height="100%"></object>';}
+
+function load_course(a)
+{
+a.style.color='white';
+a.style.background='pink';
+document.getElementById("secdiv").innerHTML='<object type="text/html" data="course.html"width="100%" height="100%"></object>';}
+
+function load_time(a)
+{
+a.style.color='white';
+a.style.background='pink';
+document.getElementById("secdiv").innerHTML='<object type="text/html" data="timetable.html"width="100%" height="100%"></object>';}
+
+function load_canvas(a)
+{
+a.style.color='white';
+a.style.background='pink';
+document.getElementById("secdiv").innerHTML='<object type="text/html" data="canvas.html"width="100%" height="100%"></object>';}
+
+function load_geo(a)
+{
+a.style.color='white';
+a.style.background='pink';
+document.getElementById("secdiv").innerHTML='<object type="text/html" data="geo.html"width="100%" height="100%"></object>';}
+
+function load_gallery(a)
+{
+a.style.color='white';
+a.style.background='pink';
+document.getElementById("secdiv").innerHTML='<object type="text/html" data="gallery.html"width="100%" height="100%"></object>';}
+
+function load_animation(a)
+{
+a.style.color='white';
+a.style.background='pink';
+document.getElementById("secdiv").innerHTML='<object type="text/html" data="animation.html" width="100%" height="100%"></object>';}
+
+function load_selector(a)
+{
+a.style.color='white';
+a.style.background='pink';
+document.getElementById("secdiv").innerHTML='<object type="text/html" data="selectors.html" width="100%" height="100%"></object>';}
+
+function load_java(a)
+{a.style.color='white';
+a.style.background='pink';
+document.getElementById("secdiv").innerHTML='<object type="text/html" data="form.html"width="100%" height="100%"></object>';}
+
+function load_jQuery(a)
+{a.style.color='white';
+a.style.background='pink';
+document.getElementById("secdiv").innerHTML='<object type="text/html" data="jQuery.html"width="100%" height="100%"></object>';}
+
+function load_thanku(a)
+{
+a.style.color='white';
+a.style.background='pink';
+document.getElementById("secdiv").innerHTML='<object type="text/html" data="thank.html"width="100%" height="100%"></object>';}
+</script>
+</body>
+</html>

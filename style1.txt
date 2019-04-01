@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>stylish</title>
+<link ref="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<p>new cascading style sheet......</p>
+</body>
+</html>

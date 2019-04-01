@@ -1,0 +1,13 @@
+<DOCTYPE!html>
+<html>
+<head><title>into</title></head>
+<body bgcolor="blue">
+<font size="25">
+hello!
+my name is Garima sharma. I'am from hisar haryana. I have completed my schooling from hisar as well.
+Now I'am doing my graduation from sharda university, right now I'am in third year of B.tech computer science.
+In future I want to be a very good coder and work with MNC's. My dream work country is Japan.
+thankyou.
+</font>
+</body>
+</html>

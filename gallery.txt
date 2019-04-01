@@ -1,0 +1,27 @@
+<html>
+<head><title><img src="cherry.gif">image gallery</title>
+<style>
+div.gallery{
+border : 2px solid black;
+width:200px;
+height:210px;
+}
+div.gallery img
+{
+width:160px;
+height:180px;
+}
+div.desc
+{
+text-align: center;
+font-color:cyan;
+]
+</style>
+</head>
+<body>
+<h1 text-align="center">IMAGE GALLERY</h1>
+<div class="gallery">
+  <img src="office.jpg">
+<div class="desc">desription of above photo</div></div>
+</body>
+</html>

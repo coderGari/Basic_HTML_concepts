@@ -1,0 +1,79 @@
+<html>
+<head><title>Form</title>
+</head>
+<body>
+<form name="myform" onsubmit="validation();">
+<center><table bgcolor="cyan">
+<tr>
+<td>First name:</td>
+<td> <input type="text" name="fname"><br><br></td>
+</tr>
+<tr>
+<td>Last name:</td>
+<td> <input type="text" name="lname"><br><br></td>
+</tr>
+<tr>
+<td>course:</td>
+<td> <input type="text" name="course"><br><br></td>
+<tr>
+<td>Roll no: </td>
+<td><input type="number" name="roll" maxlength="9"><br><br></td>
+</tr>
+<tr>
+<td>System Id: </td>
+<td><input type="number" name="sysid" maxlength="10"><br><br></td>
+</tr>
+<tr>
+<td>Section: </td>
+<td><input type="text" name="section"><br><br></td>
+</tr>
+<td>Group: </td>
+<td><input type="text" name="group"><br><br></td>
+</tr>
+<tr>
+<td>Age: </td>
+<td><input type="number"name="age"><br><br></td>
+</tr>
+<tr>
+<td>password: </td>
+<td><input type="password" name="pass" maxlength="6"><br><br></td>
+</tr>
+<tr>
+<td><input type="submit" value="submit"></td></table></center>
+</form>
+<script>
+function validation()
+{
+var x=0;
+if(x==0)
+{
+if(document.myform.fname.value=="")
+{alert("First name is empty"); x=x+1;}
+
+if(document.myform.lname.value=="")
+{alert("last name is empty");x=x+1;}
+
+if(document.myform.course.value=="")
+{alert("course is empty");x=x+1;}
+
+if((document.myform.roll.value==""))
+{alert("Fill your Roll No correctly");x=x+1;}
+
+if(document.myform.section.value=="")
+{alert("Section is empty");x=x+1;}
+
+if(document.myform.group.value=="")
+{alert("group is empty");x=x+1;}
+
+if(document.myform.age.value==""||document.myform.age.value<17||document.myform.age.value>25)
+{alert("Fill your age correctly");x=x+1;}
+
+
+if(document.myform.pass.value==""||document.myform.pass.value!=Apoorv)
+{alert("Incorrect password");x=x+1;}
+}
+
+}
+</script>
+</body>
+</html>

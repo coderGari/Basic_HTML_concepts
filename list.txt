@@ -1,0 +1,19 @@
+<DOCTYPE!html>
+<html>
+<head><title>info</title></head>
+<body bgcolor="pink">
+<font size="25"><b>Section A student list</b></font>
+<font size="20">
+Garima sharma<br>
+Manish chaturvedi<br>
+Anjali Sharma<br>
+Akansha Sharma<br>
+Bazala<br>
+Nikita<br>
+Kazol<br>
+Priyanka<br>
+Somya Charan<br>
+Zaira<br>
+</font>
+</body>
+</html>

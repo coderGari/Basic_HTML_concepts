@@ -1,0 +1,7 @@
+<!DOCTYPEhtml>
+<html>
+<head><title>multiframe</title></head>
+<frameset cols="10%,3%" rows="42%,17%,*">
+<frame name="first" src=" file:///C:/Users/DELL/Documents/into.html">
+<frame name="second" src=" C:\Users\DELL\Pictures\mediaimages\attend.png">
+<frame name="third" src="">
